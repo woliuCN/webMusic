@@ -1,0 +1,39 @@
+<!--
+ * @Description: 
+ * @Author: cn
+ * @Date: 2019-09-22 13:52:53
+ * @LastEditTime: 2019-11-27 10:07:33
+ * @LastEditors: cn
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="./bg.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="好听音乐呀"
+    />
+    <title>好听音乐</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+  <script>
+        (function (win, doc) {
+        if (!win.addEventListener) return;
+        var html = document.documentElement;
+
+        function setFont() {
+            var clientWidth = html.clientWidth;
+            var rem = clientWidth /100;
+            html.style.fontSize = rem+'px';  //将font-size设置为布局视口的1/10
+        }
+              win.addEventListener('resize', setFont, false)
+              doc.addEventListener('DOMContentLoaded', setFont, false)
+        })(window, document);
+  </script>
+</html>
