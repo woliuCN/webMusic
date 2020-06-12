@@ -70,9 +70,9 @@ style.js 样式使用style in js (style-component)
 ### 说明
 
 #### 运行
-1、第一次,进入项目目录,输入npm  install  
-2、运行 输入 npm start  
-3、打包 输入 npm run build 生成build文件夹  
+1、第一次,进入项目目录,输入`npm  install`  
+2、运行 输入 `npm start`  
+3、打包 输入 `npm run build` 生成build文件夹  
 
 #### 其他说明
 1、预览默认打开http://localhost:3000,后台数据在http://106.15.205.33:3000/上部署了,打开谷歌浏览器F11全屏更好  
