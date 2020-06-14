@@ -9,7 +9,7 @@
 项目使用create-react-app脚手架搭建,依赖react全家桶->(react-hooks、react-router4.、react-redux)  
 index.js 语法使用es6  
 style.js 样式使用style in js (style-component)  
-使用rem来实现设配,转换工具是pxtorem  
+使用rem来实现设配,转换工具是px2rem  
 
 ```js
 |--public                                       //公用目录
