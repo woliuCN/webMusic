@@ -76,5 +76,5 @@ style.js 样式使用style in js (style-component)
 3、打包 输入 `npm run build` 生成build文件夹  
 
 #### 其他说明
-1、预览默认打开http://localhost:3000,后台数据在http://106.15.205.33:3000/上部署了,打开谷歌浏览器F11全屏体验更好  
+1、预览默认打开http://localhost:3000,后台数据在http://106.15.205.33:3000/上部署了, 打开谷歌浏览器F11全屏体验更好呀！  
 2、目录结构有点不是很正确,当初写的时候没有考虑详细,例如aside应该属于baseui的而header应该属于components,且组件细化不是很够,待跟进,文件命名也有些low,吃了文化的亏！理解万岁！
