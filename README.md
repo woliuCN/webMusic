@@ -66,7 +66,11 @@ style.js 样式使用style in js (style-component)
 |   |--style.js                                 //样式格式化文件css rest                               
 
 ```
+<<<<<<< HEAD
 > dev3要撤销的233
+=======
+> dev3  feat
+>>>>>>> c05602df05293535e82cd5ec20bf779e74fee670
 
 ### 说明
 
